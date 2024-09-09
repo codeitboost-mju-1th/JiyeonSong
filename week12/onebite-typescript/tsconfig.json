@@ -1,0 +1,16 @@
+{
+  // include 옵션
+    // tsc에게 컴파일 할 타입스크립트 파일의 범위와 위치를 알려준다.
+  "include": ["src"],
+
+  // target 옵션
+  // 컴파일 결과 생성되는 자바스크립트 코드의 버전 설정
+  "compilerOpntions": {
+    "target": "ESNext",
+    "module": "ESNext", // module 옵션
+    "outDir": "dist", // outDir : 컴파일 결과 생성할 js 코드의 위치
+    "strict": true, // tx 컴파일러의 타입 검사 엄격함 수준을 정한다.
+    "moduleDetection": "force" 
+  },
+
+}
